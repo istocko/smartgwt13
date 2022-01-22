@@ -2,36 +2,30 @@ package sk.extremesystems.smartgwt13withjetty.client;
 
 
 import com.google.gwt.core.client.EntryPoint;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.google.gwt.user.client.ui.VerticalPanel;
+import com.smartgwt.client.util.SC;
+import com.smartgwt.client.widgets.Button;
+import com.smartgwt.client.widgets.events.ClickEvent;
+import com.smartgwt.client.widgets.events.ClickHandler;
+
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
 public class TestSmartGWT13Jetty implements EntryPoint {
 	public void onModuleLoad() {
-		VerticalPanel mainPanel = new VerticalPanel();
-	
 		
-		
-		
-		
-		Button b = new Button("Click me");
+		Button b= new Button("Click me!");
 		b.addClickHandler(new ClickHandler() {
 			
 			@Override
-			public void onClick(ClickEvent evnt) {
-				Window.alert("OK?");
+			public void onClick(ClickEvent event) {
+				SC.say("OK?");
 				
 			}
 		});
-		
-		mainPanel.add(b);		
-		
-		RootPanel.get("root").add(mainPanel);
+	
+		RootPanel.get("root").add(b);
 	}
+		
 }
