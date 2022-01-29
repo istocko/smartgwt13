@@ -1,3 +1,5 @@
 target/*
 war/*
 src/main/webapp/testsmartgwt13jetty/*
+smartgwt.jar
+smartgwt-skins.jar
