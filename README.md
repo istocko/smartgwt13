@@ -1,3 +1,9 @@
+<h1>Development of Web RIA applications with Java using SmartGWT 13</h1>
+
+<br>
+
+<h2><a href="live/" target="_NEW">Live Example</h2>
+<iframe src="live/" width="800" height="600" />
 <h2>Requirements for setup of IDE eclipse:</h2>
 <br>
 <br>
