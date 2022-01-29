@@ -2,8 +2,8 @@
 
 <br>
 
-<h2><a href="live/" target="_NEW">Live Example</h2>
-<iframe src="live/" width="800" height="600" />
+<h2><a href="live/TestSmartGWT13Jetty.html" target="_NEW">Live Example</a></h2>
+<iframe src="live/TestSmartGWT13Jetty.html" width="400" height="400"> </iframe>
 <h2>Requirements for setup of IDE eclipse:</h2>
 <br>
 <br>
