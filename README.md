@@ -39,14 +39,31 @@ public class TestSmartGWT13Jetty implements EntryPoint {
 		Label info = new Label("created by <a href='https://www.extremesystems.sk' target='_NEW'>ExtremeSystems SK</a>");
 		info.setWidth100();
 		
-		HLayout hl = new HLayout();
-		hl.setHeight100();
-		hl.setWidth100();
-		hl.setAlign(Alignment.CENTER);
-		hl.addMember(b);
-		hl.addMember(info);
+		final VLayout outputInfo = new VLayout();
+		Button runBlockchainExample = new Button("Run Blockchain Example");
+		runBlockchainExample.addClickHandler(new ClickHandler() {
+			
+			@Override
+			public void onClick(ClickEvent event) {
+				BlockChainExample bce = new BlockChainExample();
+				bce.bindOutput(outputInfo);
+				bce.run();
+				
+			}
+		});
+		
+		
+		VLayout vl = new VLayout();
+		vl.setHeight100();
+		vl.setWidth100();
+		vl.setAlign(Alignment.CENTER);
+		vl.addMember(b);
+		vl.addMember(runBlockchainExample);
+		vl.addMember(outputInfo);
+		
+		vl.addMember(info);
 	
-		RootPanel.get("root").add(hl);
+		RootPanel.get("root").add(vl);
 	}
 		
 }
@@ -111,4 +128,6 @@ Click at bookmark Dev Mode On and click at Compile button
 Start using smartgwt in your Java web application project 
 Showcase about SmartGWT <a href="https://www.smartclient.com/smartgwt/showcase/">here</a>
 <br>
-
+<h2>Example of BlockChain by using <a href="https://github.com/istocko/sk.icoin.blockchainj" target="_NEW">blockchainj</a></h2>
+<br>
+<img src ="screenshots/test2.png">
