@@ -96,6 +96,8 @@ open http://localhost:8080 in browser
 <br>
 <h2>Debugging app</h2>
 <br>
+Run As -> Run with Jetty
+<br>
 Debug As -> GWT Develepoment Mode
 <br>
 open http://localhost:9876 and drag&drop bookmarklets DEV Mode ON and Dev Mode Off to bookmark panel in browser (CTRL+SHIFT+B in chrome)
