@@ -1,0 +1,22 @@
+<DataSource
+    ID="registeredFonts"
+    dataFormat="json"
+    dataURL="[FONTS]registeredFonts.json"
+>
+    <fields>
+        <field name="pk" hidden="true" type="sequence" primaryKey="true" />
+        <field name="name" type="text" title="Name" />
+        <!-- type can be text or icon -->
+        <field name="type" type="text" title="Type" />
+        <field name="family" type="text" title="family" />
+        <field name="fontFileUrl" type="text" title="Font File" />
+        <field name="cssFileUrl" type="text" title="CSS File" />
+        <field name="css" type="text" title="CSS" length="104857600" />
+    </fields>
+
+    <operationBindings>
+        <operationBinding operationId="updateRegisteredFonts" operationType="custom" >
+            <serverObject lookupStyle="new" className="com.isomorphic.util.SkinUtil" methodName="updateRegisteredFonts" />
+        </operationBinding>
+    </operationBindings>
+</DataSource>

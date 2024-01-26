@@ -1,12 +1,13 @@
-<h1>Development of Web RIA applications with Java using SmartGWT 13</h1>
+<h1>Development of Web RIA applications with Java using SmartGWT 13.1d</h1>
 
 <br>
 
-<h2><a href="live/TestSmartGWT13Jetty.html" target="_NEW">Live Example</a></h2>
-<iframe src="live/TestSmartGWT13Jetty.html" width="400" height="400"> </iframe>
-
-<code>
-  package sk.extremesystems.smartgwt13withjetty.client;
+<h2><a href="live/SmartGWT13.html" target="_NEW">Live Example</a></h2>
+<iframe src="live/SmartGWT13.html" width="400" height="400"> </iframe>
+<br>
+<br>
+<pre>
+package sk.extremesystems.smartgwt13.client;
 
 
 import com.google.gwt.core.client.EntryPoint;
@@ -17,21 +18,25 @@ import com.smartgwt.client.widgets.Button;
 import com.smartgwt.client.widgets.Label;
 import com.smartgwt.client.widgets.events.ClickEvent;
 import com.smartgwt.client.widgets.events.ClickHandler;
-import com.smartgwt.client.widgets.layout.HLayout;
+import com.smartgwt.client.widgets.layout.VLayout;
+
+import sk.extremesystems.smartgwt13.client.blockchain.BlockChainExample;
 
 
-/**
- * Entry point classes define <code>onModuleLoad()</code>.
- */
-public class TestSmartGWT13Jetty implements EntryPoint {
+
+public class SmartGWT13 implements EntryPoint {
 	public void onModuleLoad() {
 		
-		Button b = new Button("Click me!");
+		Button b = new Button("Version of SmartGWT ".concat(SC.getScVersion()).concat(" Click here for test"));
+		b.setMargin(2);
+		b.setWidth("500px");
+		b.setBorder("1px red solid");
 		b.addClickHandler(new ClickHandler() {
 			
 			@Override
 			public void onClick(ClickEvent event) {
-				SC.say("OK?");
+				
+				SC.say("SmartGWT v. ".concat(SC.getScVersion()));
 				
 			}
 		});
@@ -67,22 +72,23 @@ public class TestSmartGWT13Jetty implements EntryPoint {
 	}
 		
 }
-</code>
+
+</pre>
 
 <h2>Requirements for setup of IDE eclipse:</h2>
 <br>
 <br>
-Open JDK 13
+Open JDK 16
 <br>
-Eclipse for EE Developers
+Eclipse for EE Developers (2023-09)
 <br>
-GWT 2.9.0
+GWT 2.11.0
 <br>
-GWT Plugin from Eclipse Marketplace (uncheck GWT 2.7.0 and 2.8.0 download option)
+GWT 4.0.0 Plugin from Eclipse Marketplace 
 <br>
 Run with Jetty Plugin from Eclipse Marketplace
 <br>
-<a href="https://www.smartclient.com/product/download-bounce.jsp?product=smartgwt&license=lgpl&version=13.0p&nightly=true" download>SmartGWT 13 library</a>
+<a href="https://www.smartclient.com/product/download-bounce.jsp?product=smartgwt&license=lgpl&version=13.1d&nightly=true" download>SmartGWT 13.1d library</a>
 <br>
 GIT
 <br>
@@ -98,8 +104,6 @@ Setup project with  GWT (set path where GWT is uzipped)
 Copy smartgwt libraries (*.jar) to project dir
 <br>
 Compile GWT app with Eclipse
-<br>
-Run As -> configurations -> setup Jetty Web App -> set path target\TestSmartGWT13Jetty-1.0-SNAPSHOT\ 
 <br>
 Run App via Run As -> Run with Jetty
 <br>

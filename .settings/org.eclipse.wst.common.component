@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="TestSmartGWT13Jetty-1.0-SNAPSHOT">
-        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <property name="context-root" value="TestSmartGWT13Jetty"/>
-        <property name="java-output-path" value="/testSmartGWT13Jetty/target/TestSmartGWT13Jetty-1.0-SNAPSHOT/WEB-INF/classes"/>
+        
+    <wb-module deploy-name="SmartGWT13-1.0-SNAPSHOT">
+                
+        <property name="context-root" value="SmartGWT13"/>
+                
+        <property name="java-output-path" value="/SmartGWT13.1d/target/SmartGWT13-1.0-SNAPSHOT/WEB-INF/classes"/>
+            
     </wb-module>
+    
 </project-modules>
