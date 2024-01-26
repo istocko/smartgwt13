@@ -1,0 +1,85 @@
+
+[
+    {
+        "pk": 10,
+        "name": "Calibri",
+        "type": "text",
+        "family": "calibri",
+        "fontFileUrl": "[FONTS]calibri/CALIBRI_1.TTF",
+        "cssFileUrl": "",
+        "css": "    @font-face { font-family: \"calibri\";src: local(\"☺\"), url(\"[FONTS]calibri/CALIBRI_1.TTF\"), url(\"[FONTS]calibri/CALIBRI_1.TTF\"); font-weight: normal; font-style: normal; }"
+    },
+    {
+        "pk": 20,
+        "name": "Corbel",
+        "type": "text",
+        "family": "corbel",
+        "fontFileUrl": "[FONTS]corbel/corbel.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {             font-family: \"corbel\";             /* see comment on @font-face above */             src: url(\"[FONTS]corbel/corbel.ttf\");             src: url(\"[FONTS]corbel/corbel.eot\") \9;             src: local(\"☺\"), url(\"[FONTS]corbel/corbel.woff\") format(\"woff\"), url(\"[FONTS]corbel/corbel.otf\") format(\"opentype\"), url(\"[FONTS]corbel/corbel.ttf\") format(\"truetype\"), url(\"[FONTS]corbel/corbel.svg\") format(\"svg\");             font-weight: normal;             font-style: normal;     }"
+    },
+    {
+        "pk": 30,
+        "name": "RobotoLight",
+        "type": "text",
+        "family": "RobotoLight",
+        "fontFileUrl": "[FONTS]RobotoLight/RobotoLight.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {         font-family: \"RobotoLight\";         /* see comment on @font-face above */         src: url(\"[FONTS]RobotoLight/RobotoLight.otf\");         src: url(\"[FONTS]RobotoLight/RobotoLight.eot\") \9;         src: local(\"☺\"), url(\"[FONTS]RobotoLight/RobotoLight.woff2\") format(\"woff2\"), url(\"[FONTS]RobotoLight/RobotoLight.woff\") format(\"woff\"), url(\"[FONTS]RobotoLight/RobotoLight.otf\") format(\"opentype\"), url(\"[FONTS]RobotoLight/RobotoLight.ttf\") format(\"truetype\");         font-weight: normal;         font-style: normal;     }"
+    },
+    {
+        "pk": 40,
+        "name": "Roboto-Regular",
+        "type": "text",
+        "family": "Roboto-Regular",
+        "fontFileUrl": "[FONTS]Roboto/Roboto-Regular.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {         font-family: \"Roboto-Regular\";         src: local(\"☺\"), url(\"[FONTS]Roboto/Roboto-Regular.ttf\") format(\"truetype\");         font-weight: normal;         font-style: normal; }"
+    },
+    {
+        "pk": 50,
+        "name": "Roboto-Bold",
+        "type": "text",
+        "family": "Roboto-Bold",
+        "fontFileUrl": "[FONTS]Roboto/Roboto-Bold.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {         font-family: \"Roboto-Bold\";         src: local(\"☺\"), url(\"[FONTS]Roboto/Roboto-Bold.ttf\") format(\"truetype\");         font-weight: normal;         font-style: normal; }"
+    },
+    {
+        "pk": 60,
+        "name": "Roboto-Light-Vivid",
+        "type": "text",
+        "family": "Roboto-Light-Vivid",
+        "fontFileUrl": "[FONTS]RobotoLight/Roboto-Light-Vivid.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {         font-family: \"Roboto-Light-Vivid\";         src: local(\"☺\"), url(\"[FONTS]RobotoLight/Roboto-Light-Vivid.ttf\") format(\"truetype\");         font-weight: normal;         font-style: normal; }"
+    },
+    {
+        "pk": 70,
+        "name": "OpenSans",
+        "type": "text",
+        "family": "OpenSans-Regular",
+        "fontFileUrl": "[FONTS]OpenSans/OpenSans-Regular.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {         font-family: \"OpenSans-Regular\";         src: local(\"☺\"), url(\"[FONTS]OpenSans/OpenSans-Regular.ttf\") format(\"truetype\");         font-weight: normal;         font-style: normal;     }"
+    },
+    {
+        "pk": 80,
+        "name": "Nunito",
+        "type": "text",
+        "family": "Nunito-Regular",
+        "fontFileUrl": "[FONTS]Nunito/Nunito-Regular.ttf",
+        "cssFileUrl": "",
+        "css": "    @font-face {         font-family: \"Nunito-Regular\";         src: local(\"☺\"), url(\"[FONTS]Nunito/Nunito-Regular.ttf\") format(\"truetype\");         font-weight: normal;         font-style: normal;     }"
+    },
+    {
+        "pk": 100,
+        "name": "MaterialIcons",
+        "type": "icon",
+        "family": "MaterialIcons",
+        "fontFileUrl": "[FONTS]MaterialIcons/MaterialIcons-Regular.ttf",
+        "cssFileUrl": "[FONTS]MaterialIcons/material-icons.css",
+        "css": "    @font-face {font-family: 'MaterialIcons'; font-style: normal; font-weight: 400; src: local('MaterialIcons'), local('MaterialIcons-Regular'), url('https://fonts.gstatic.com/s/materialicons/v81/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2'), url('MaterialIcons-Regular.ttf') format('truetype'); } .material-icons,.material-iconsOver,.material-iconsFocused,.material-iconsFocusedOver,.material-iconsDisabled {  font-family: 'MaterialIcons';  font-weight: normal;  font-style: normal;  font-size: var(--iscMaterialIconSize, 24px);  /* Preferred icon size */  color: var(--iscMaterialIconColor, inherit);  display: inline-block;  line-height: 1;  text-transform: none;  letter-spacing: normal;  word-wrap: normal;  white-space: nowrap;  direction: ltr;    vertical-align: middle;  /* Support for all WebKit browsers. */  -webkit-font-smoothing: antialiased;  /* Support for Safari and Chrome. */  text-rendering: optimizeLegibility;  /* Support for Firefox. */  -moz-osx-font-smoothing: grayscale;  /* Support for IE. */  font-feature-settings: 'liga';}.material-iconsOver {    color: var(--iscMaterialIconOverColor, inherit);}.material-iconsFocused,.material-iconsFocusedOver {    color: var(--iscMaterialIconOverColor, inherit); }.material-iconsDisabled {    color: var(--iscMaterialIconDisabledColor, inherit); } .material-iconsButton,.material-iconsButtonOver,.material-iconsButtonFocused,.material-iconsButtonFocusedOver,.material-iconsButtonDisabled {  font-family: 'MaterialIcons';  font-weight: normal;  font-style: normal;  font-size: var(--iscMaterialIconSize, 24px);  /* Preferred icon size */  color: inherit;  display: inline-block;  line-height: 1;  text-transform: none;  letter-spacing: normal;  word-wrap: normal;  white-space: nowrap;  direction: ltr;    vertical-align: middle;  /* Support for all WebKit browsers. */  -webkit-font-smoothing: antialiased;  /* Support for Safari and Chrome. */  text-rendering: optimizeLegibility;  /* Support for Firefox. */  -moz-osx-font-smoothing: grayscale;  /* Support for IE. */  font-feature-settings: 'liga';}"
+    }
+
+]
